@@ -1,0 +1,14 @@
+<div *ngIf="hero">
+  <h2>{{hero.name | uppercase}} Details</h2>
+  <div><span>id: </span>{{hero.id}}</div>
+  <div>
+    <label for="hero-name">Hero name: </label>
+    <input id="hero-name" [(ngModel)]="hero.name" placeholder="Hero name"/>
+  </div>
+  <h3>Main powers:</h3>
+  <ul>
+    <li style="background-color: {{hero.color}}" *ngFor="let item of hero.powers">{{item}}</li>
+  </ul>
+  <button (click)="goBack()">go back</button>
+  <button (click)="save()">save</button>
+</div>
