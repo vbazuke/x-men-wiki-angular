@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'X-men Powers Wiki';
+  title = 'X-men Mutant Wiki';
 }

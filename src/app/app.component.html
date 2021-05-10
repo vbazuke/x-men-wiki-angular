@@ -1,7 +1,14 @@
-<h1>{{title}}</h1>
-<nav>
-  <a routerLink="/dashboard">Dashboard</a>
-  <a routerLink="/heroes">Characters</a>
-</nav>
-<router-outlet></router-outlet>
-<app-messages></app-messages>
+<div class="container-fluid">
+      <img src="assets/images/x-Men-banner-new.png" class='img-fluid' style="width:100%" alt="">
+      <router-outlet></router-outlet>
+</div>
+
+<ability-cards></ability-cards>
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <app-carousel></app-carousel>
+    </div>
+  </div>
+</div>
