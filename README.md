@@ -3,7 +3,7 @@ This is a simple Angular SPA related to x-men powers, it is a landing page that 
 
 All the info and images were taken from https://x-men.fandom.com/wiki/X-Men_Wiki
 
-Darkster theme: https://bootstrap.themes.guide/darkster/
+Darkster theme: https://bootstrap.themes.guide/darkster/ </br>
 ng-boostrap: https://ng-bootstrap.github.io/
 
 1. npm install - to install dependencies
